@@ -17,9 +17,14 @@ Below follows a description of the information contained in this repository.
   
    - Detailed Fixed Asset Accounts contains the detailed FAA commodity data for non-residential (structures, equipment and IP) and residential investment data drawn from the BEA's "underlying detail" fixed assets tables: https://apps.bea.gov/national/FA2004/Details/Index.htm, see https://www.bea.gov/itable/fixed-assets for more details
   
-- Output data:
+- Output data (work in progress):
 
   - Aggregated Y-matrices contains output from the Disagg_government_purchases script with disaggregated government final demand for all historical benchmark years.
  
   - New Final demand tables contains output from the Disagg_private_capital scripts with disaggregated private capital formation for years 1901-2023, this output is only temporary as the full script is still a work in progress.
- 
+
+- Data processing progress (work in progress):
+
+  - Isol_government_capital contains excel files related to comparing the differences between consumption and investment transactions for the years 1992-1997 using raw benchmark data, and where investment spendings are concentrated for the years 2002-2012, with the purpose of isolating consumption-only commodities across all benchmark years.
+
+  - harmon_private_accounts contains excel files related to harmonising the BEA's detailed fixed asset accounts and the benchmark I-O gross-fixed-capital-formation column using the New Final demand tables, and investigates issues related to discrepancies in the sum total of transactions for different benchmark years
